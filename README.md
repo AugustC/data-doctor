@@ -16,9 +16,6 @@ System architecture can be seen in the following diagram:
 - Python 3.10–3.11
 - [Poetry](https://python-poetry.org/docs/#installation)
 - [Docker](https://docs.docker.com/get-docker/)
-- Data files in the `data/` directory
-- Clinical diagnosis markdown files in `data/md_documents/`
-- A configured `.env` file (see `.env.example` for guidance)
 - The following Python libraries (installed automatically with Poetry):
   - `langgraph`
   - `xgboost`
