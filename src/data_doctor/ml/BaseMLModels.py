@@ -1,6 +1,6 @@
 import pandas as pd
 from sklearn.model_selection import train_test_split
-from core.utils import cleanup_data, normalize_data
+from data_doctor.utils import cleanup_data, normalize_data
 import pprint
 
 class BaseMLModels:

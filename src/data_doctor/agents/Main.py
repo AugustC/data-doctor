@@ -1,6 +1,6 @@
 from typing import Literal
-from core.agents import Planner, EHR, Diagnosis, ML, ResponseGenerator
-from core.agents import State
+from data_doctor.agents import Planner, EHR, Diagnosis, ML, ResponseGenerator
+from data_doctor.agents import State
 from langgraph.graph import StateGraph, START, END
 
 

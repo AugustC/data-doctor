@@ -1,4 +1,4 @@
-from core.pipelines import TrainPipeline
+from data_doctor.pipelines import TrainPipeline
 import argparse
 
 #Add arguments for cli

@@ -1,4 +1,4 @@
-from core.pipelines import UploadPipeline
+from data_doctor.pipelines import UploadPipeline
 import argparse
 
 def main():

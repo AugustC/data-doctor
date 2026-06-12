@@ -1,4 +1,4 @@
-from core.agents.Main import MainAgent
+from data_doctor.agents.Main import MainAgent
 from dotenv import load_dotenv
 from termcolor import colored
 

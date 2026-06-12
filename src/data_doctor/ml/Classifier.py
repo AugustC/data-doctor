@@ -1,4 +1,4 @@
-from core.ml.BaseMLModels import BaseMLModels
+from data_doctor.ml.BaseMLModels import BaseMLModels
 import xgboost as xgb
 
 class Classifier(BaseMLModels):

@@ -1,4 +1,4 @@
-from core.database import VectorStore
+from data_doctor.database import VectorStore
 import glob
 from tqdm import tqdm
 

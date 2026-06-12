@@ -1,4 +1,4 @@
-from core.agents import State
+from data_doctor.agents import State
 from langchain_openai import ChatOpenAI
 from langchain.prompts import PromptTemplate
 from langgraph.graph import StateGraph, START, END

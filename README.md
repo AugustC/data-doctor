@@ -68,7 +68,7 @@ docker run -p 6333:6333 -p 6334:6334 \
 Start the assistant:
 
 ```bash
-poetry run python -m main
+poetry run python -m data_doctor
 ```
 
 Interact by asking questions when prompted.

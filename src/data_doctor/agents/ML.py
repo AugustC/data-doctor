@@ -2,12 +2,12 @@ from typing import Literal
 
 from pydantic import BaseModel
 from langgraph.graph import StateGraph, START, END
-from core.agents import State
-from core.ml import Classifier, Regression
-from core.utils import get_columns, cleanup_data, normalize_data
+from data_doctor.agents import State
+from data_doctor.ml import Classifier, Regression
+from data_doctor.utils import get_columns, cleanup_data, normalize_data
 from langchain_openai import ChatOpenAI
 from langchain.prompts import PromptTemplate
-from core.ml.BaseMLModels import BaseMLModels
+from data_doctor.ml.BaseMLModels import BaseMLModels
 import pandas as pd
 
 class Data(BaseModel):

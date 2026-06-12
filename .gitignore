@@ -1,8 +1,6 @@
-core/agents/__pycache__
-core/database/__pycache__
-core/ml/__pycache__
-core/pipelines/__pycache__
-core/utils/__pycache__
+__pycache__/
+*.py[cod]
+.pytest_cache/
 data/md_documents
 data/patient_data.csv
 data/documents_data.zip
@@ -11,6 +9,5 @@ experiments/regression-2025-07-27.model
 models/classifier.model
 models/regression.model
 qdrant_storage
-scripts/__pycache__
 .env
 pandasai.log

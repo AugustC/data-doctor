@@ -1,4 +1,4 @@
-import core.ml as ml
+import data_doctor.ml as ml
 from datetime import date
 import os
 

@@ -1,6 +1,6 @@
 from langgraph.graph import StateGraph, START, END
-from core.utils import get_columns
-from core.agents import State
+from data_doctor.utils import get_columns
+from data_doctor.agents import State
 import pandasai as pai
 from pandasai_litellm import LiteLLM
 import os

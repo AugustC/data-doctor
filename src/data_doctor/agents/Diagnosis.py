@@ -1,6 +1,6 @@
 from langgraph.graph import StateGraph, START, END
-from core.agents import State
-from core.database import VectorStore
+from data_doctor.agents import State
+from data_doctor.database import VectorStore
 
 def get_documents(filepaths):
     # Get documents files and format it into a string
